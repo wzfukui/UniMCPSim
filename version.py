@@ -3,11 +3,20 @@
 UniMCPSim Version Information
 """
 
-__version__ = "2.12.2"
-__version_info__ = (2, 12, 2)
+__version__ = "2.12.3"
+__version_info__ = (2, 12, 3)
 
 # Version history
 VERSION_HISTORY = {
+    "2.12.3": {
+        "date": "2026-02-06",
+        "features": [
+            "OEM分支管理后台品牌文案清理（footer与登录页）",
+            "移除footer中的厂商品牌外链信息",
+            "应用创建默认示例值去品牌化（name/display_name/description）",
+            "统一默认文案为中性OEM示例内容"
+        ]
+    },
     "2.12.2": {
         "date": "2025-12-13",
         "features": [

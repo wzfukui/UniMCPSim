@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.12.3] - 2026-02-06
+
+### Changed
+- OEM branch admin branding cleanup
+  - Removed vendor branding text from shared footer
+  - Removed vendor branding text from login page
+  - Simplified footer content to neutral product text (`Powered by UniMCPSim`)
+- OEM default example content cleanup in app creation
+  - Replaced branded default app name with neutral sample (`Example-SOAR`)
+  - Replaced branded default display name/description with generic sample text
+
 ## [2.12.2] - 2025-12-13
 
 ### Fixed
@@ -319,7 +330,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - SQLite database with SQLAlchemy ORM
 - Comprehensive test coverage
 
-[Unreleased]: https://github.com/flagify-com/UniMCPSim/compare/v2.11.2...HEAD
+[Unreleased]: https://github.com/flagify-com/UniMCPSim/compare/v2.12.3...HEAD
+[2.12.3]: https://github.com/flagify-com/UniMCPSim/compare/v2.12.2...v2.12.3
+[2.12.2]: https://github.com/flagify-com/UniMCPSim/compare/v2.11.2...v2.12.2
 [2.11.2]: https://github.com/flagify-com/UniMCPSim/compare/v2.11.1...v2.11.2
 [2.11.1]: https://github.com/flagify-com/UniMCPSim/compare/v2.11.0...v2.11.1
 [2.11.0]: https://github.com/flagify-com/UniMCPSim/compare/v2.10.1...v2.11.0
